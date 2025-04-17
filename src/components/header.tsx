@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header className="bg-sky-50 text-neutral-900 dark:bg-gray-900 dark:text-neutral-100 shadow">
-      <nav className="p-4 flex items-center justify-between max-w-4xl mx-auto">
+      <nav className="p-4 flex items-center justify-between max-w-6xl mx-auto">
         <Link
           href="/"
           className="flex items-center gap-2 text-primary-light hover:text-primary-dark dark:text-primary-dark dark:hover:text-primary-light"

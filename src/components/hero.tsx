@@ -4,7 +4,6 @@ import {
   FaReact,
   FaCss3Alt,
   FaJsSquare,
-  FaNodeJs,
   FaDatabase,
   FaMicrosoft,
 } from 'react-icons/fa';
