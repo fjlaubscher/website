@@ -1,0 +1,301 @@
+[
+  {
+    "from": "April 2025",
+    "to": "Present",
+    "employer": "Toptal",
+    "location": "Remote",
+    "role": "Senior Full-stack Engineer",
+    "blurb": "As a Senior Full-stack Engineer at Toptal, I work on integrating and maintaining software from recently acquired companies, ensuring smooth migrations into Toptal’s platform.\n\nI contribute across the stack using technologies like Next.js, TypeScript, and Tailwind, helping bring acquired products in line with Toptal’s engineering standards.",
+    "projects": []
+  },
+  {
+    "from": "November 2024",
+    "to": "April 2025",
+    "employer": "Procurified",
+    "location": "Remote",
+    "role": "Senior Full Stack Developer",
+    "blurb": "Worked closely with the CTO during a key transition from a no-code Bubble platform to a custom Express.js API for their construction estimation software. Helped define business requirements, set up project management workflows using Shortcut, and built integrations to keep systems in sync.\n\nAlso took over front-end work in React after the initial contractor phase, continuing development and maintenance.",
+    "projects": [
+      {
+        "name": "Estimation - API",
+        "description": "Developed the MVP for the Estimation API, a core back-end service for construction estimation within the Procurified platform. Led the transition from a no-code Bubble solution to a custom Node.js/Express.js implementation, focusing on scalability, maintainability, and robust data management. Responsible for designing and implementing RESTful endpoints, optimizing database interactions, and ensuring the system could support future platform growth.",
+        "tech": [
+          "Express.js",
+          "Node.js",
+          "PostgreSQL (AWS RDS)",
+          "Redis",
+          "Jest"
+        ]
+      },
+      {
+        "name": "Estimation - BOQ",
+        "description": "Took over an initially outsourced Bill of Quantities (BOQ) application and led it to MVP launch, followed by ongoing enhancements. This standalone React app (JavaScript, CSS Modules) enables users to dynamically add or remove elements in a construction project's BOQ, efficiently rendering large datasets where performance is critical. Integrated WebSockets to provide real-time updates, ensuring all users see changes instantly and supporting collaborative workflows.",
+        "tech": ["React", "JavaScript", "CSS Modules", "WebSockets"]
+      },
+      {
+        "name": "Estimation - Natural Maths",
+        "description": "Inherited and delivered the MVP for the Natural Maths app, a standalone React application (JavaScript, CSS Modules) designed to let users enter mathematical equations in a style similar to Excel. Implemented features for inline variable creation using special commands, and focused on usability and flexibility to support complex construction estimation workflows. Continued to enhance the app post-MVP to meet evolving user needs.",
+        "tech": ["React", "JavaScript", "CSS Modules"]
+      }
+    ]
+  },
+  {
+    "from": "March 2022",
+    "to": "October 2024",
+    "employer": "Toptal",
+    "location": "Remote",
+    "role": "Senior Front-End Engineer",
+    "blurb": "As a Senior Front-End Engineer at Toptal, I led and mentored junior team members, fostering a collaborative and supportive environment. I was responsible for developing and maintaining robust React, TypeScript, and GraphQL-based applications for both internal and external use.\n\nAdditionally, I led key product initiatives, driving innovation and ensuring alignment with business objectives. I worked closely with engineering and product managers to ensure successful project execution.",
+    "projects": [
+      {
+        "name": "Client Portal",
+        "description": "Contributed to the development of Client Portal, a platform used by Clients to create Jobs, review Talent, and schedule interviews. As part of the Matching team, I was responsible for developing and maintaining features related to creating Jobs and displaying Talent profiles. I collaborated with cross-functional teams to ensure seamless integration and functionality, and I also analyzed and troubleshot issues to improve the overall user experience.",
+        "tech": ["React", "TypeScript", "SASS", "Jest", "Cypress", "Storybook"]
+      },
+      {
+        "name": "Client Portal - Talent Insights (Initiative Lead)",
+        "description": "Led the Talent Insights initiative, a year-long phased project focused on streamlining the interview process and enhancing data visibility. Coordinated team efforts and utilized Jira for task tracking and project management. Successfully rolled out new features using feature toggles, enabling a phased approach to project delivery.",
+        "tech": ["React", "TypeScript", "SASS", "Jest", "Cypress", "Storybook"]
+      },
+      {
+        "name": "Staff Portal",
+        "description": "Contributed to the development of Staff Portal, an internal software platform used to manage Clients, Talent, and Staff within Toptal. As part of the Matching team, I was responsible for developing and maintaining features related to matching Talent with Clients and sending Talent to Jobs.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Material UI",
+          "Jest",
+          "Cypress",
+          "Storybook"
+        ]
+      },
+      {
+        "name": "Staff Portal - Pricing Calculator (Initiative Lead)",
+        "description": "Led the Pricing Calculator initiative, a project focused on providing clients with accurate and detailed pricing information for specific talent. Successfully integrated the calculator into an internal tool, enhancing the efficiency of the hiring process and improving client satisfaction.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Material UI",
+          "Jest",
+          "Cypress",
+          "Storybook"
+        ]
+      },
+      {
+        "name": "Staff Portal - Rates Calculator (Initiative Lead)",
+        "description": "Led the Rates Calculator initiative, a project focused on improving the accuracy and efficiency of pricing calculations within Staff Portal when sending potential candidates to clients for posted jobs. Successfully migrated client-side calculations to the backend, enabling real-time updates and ensuring accurate pricing based on dynamic rate changes.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Material UI",
+          "Jest",
+          "Cypress",
+          "Storybook"
+        ]
+      }
+    ]
+  },
+  {
+    "from": "June 2020",
+    "to": "March 2022",
+    "employer": "Incon Health",
+    "location": "Remote",
+    "role": "Freelance Software Engineer",
+    "blurb": "As a Freelance Software Engineer, I successfully developed and maintained custom software solutions for Incon Health, a prominent South African occupational health provider.\n\nMy contributions extended to the development of a critical COVID-19 management platform, providing essential support during the pandemic.",
+    "projects": [
+      {
+        "name": "Performer Plus",
+        "description": "Sole front-end developer for Performer Plus, a platform to help employers manage workplace risks, injuries, and diseases. Built the user interface from scratch and contributed to back-end development and architectural planning, ensuring a robust and user-friendly solution for occupational health management.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Chakra UI",
+          ".NET 6",
+          "Microsoft SQL Server"
+        ]
+      },
+      {
+        "name": "COVIDCare",
+        "description": "Key contributor to COVIDCare, a platform for managing COVID-19 cases in the workplace. Developed the platform from the ground up, including features for case tracking, Department of Health data submission, and integration with a mobile screening app. Focused on reliability and seamless data flow between systems.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Semantic UI",
+          ".NET Core",
+          "Microsoft SQL Server"
+        ]
+      },
+      {
+        "name": "COVIDCare Screening PWA",
+        "description": "Developed the Screening PWA, a mobile app for daily COVID-19 self-screening by employees. Built the app from scratch and integrated it with the COVIDCare platform, enabling real-time reporting and streamlined case management for employers.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "SCSS",
+          ".NET Core",
+          "Microsoft SQL Server"
+        ]
+      }
+    ]
+  },
+  {
+    "from": "Sept 2018",
+    "to": "June 2020",
+    "employer": "Leadhome",
+    "location": "Remote",
+    "role": "Software Engineer",
+    "blurb": "As a Software Engineer at Leadhome, a dynamic real estate tech startup, I played a pivotal role in developing and maintaining our robust .NET microservices architecture. I contributed significantly to the GraphQL layer and business logic implementation using C#, while also actively participating in the development of our front-end applications using React, Redux, and JavaScript.\n\nCollaborating closely with UX designers who utilized Figma, I successfully implemented intuitive and visually appealing user interfaces that enhanced the overall user experience.",
+    "projects": [
+      {
+        "name": "Book a Viewing",
+        "description": "Developed the Viewing Booking Wizard for Leadhome, a tech startup in the South African real estate industry. Implemented the user interface from Figma designs and built features for booking property viewings, streamlining the process for both agents and clients as part of a collaborative development team.",
+        "tech": ["React", "Redux", "Styled Components", "Cypress"]
+      },
+      {
+        "name": "leadhome.co.za - Estate Agents",
+        "description": "Built the Estate Agents section of the Leadhome website, a micro UI designed to boost organic traffic through SEO optimization. Created a user-friendly interface for finding estate agents by region and developed a back-end API to integrate with microservices and migrate data from WordPress to the internal CRM.",
+        "tech": [
+          "React",
+          "Styled Components",
+          ".NET Core",
+          "GraphQL",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "leadhome.co.za",
+        "description": "Contributed to a partial rebuild of the Leadhome website, maintaining the legacy version while using Nginx to proxy requests for a seamless user experience. Updated key sections of the site to improve functionality and user engagement.",
+        "tech": ["React", "Styled Components", "Nginx", "Next.js"]
+      },
+      {
+        "name": "Book a Valuation",
+        "description": "Developed the Book a Valuation wizard, enabling homeowners to easily schedule property valuations. Designed and implemented a user-friendly interface, integrated with the Leadhome platform, and ensured a smooth booking process.",
+        "tech": ["React", "Redux", "Styled Components", "Cypress"]
+      },
+      {
+        "name": "Carbon",
+        "link": "https://github.com/leadhomesa/carbon",
+        "description": "Proposed and led the development of Carbon, an open-source PWA boilerplate for internal React front-ends. Defined project scope and architecture, contributed core features, and maintained documentation to support internal development workflows.",
+        "tech": ["React", "Webpack", "Styled Components"]
+      },
+      {
+        "name": "Osmosis - Internal CRM",
+        "description": "Developed Osmosis, an internal CRM to replace Salesforce at Leadhome. Focused on back-end development of the GraphQL API using .NET Core and contributed to microservices architecture, including REST and RabbitMQ integrations.",
+        "tech": [".NET Core", "GraphQL", "PostgreSQL", "RabbitMQ"]
+      }
+    ]
+  },
+  {
+    "from": "Jan 2017",
+    "to": "Aug 2018",
+    "employer": "MADE Code",
+    "location": "Cape Town",
+    "role": "Software Engineer",
+    "blurb": "As a Software Engineer at MADE Code, a digital marketing agency, I played a pivotal role in developing and maintaining full-stack JavaScript applications utilizing NodeJS, React and SCSS. While my role encompassed both front-end and back-end development, I particularly excelled in the front-end domain, significantly enhancing my CSS and SCSS skills.\n\nI actively participated in client meetings to gather requirements and collaboratively plan project deliverables, ensuring that our solutions effectively met client needs and objectives.",
+    "projects": [
+      {
+        "name": "made.co.za",
+        "description": "Contributed to the development of the MADE Agency website, focusing on building a modern, responsive front-end. Implemented core features and maintained the site to support the agency's evolving needs.",
+        "tech": ["React", "Node.js", "RxJS", "Styled Components"]
+      },
+      {
+        "name": "Lobbsta",
+        "description": "Front-end developer for Lobbsta, an online e-sports platform for scheduling, sharing, and viewing real-time Dota 2 match statistics. Built interactive UI components and integrated real-time data feeds to enhance the user experience.",
+        "tech": ["React", "Redux", "RxJS", "SCSS"]
+      },
+      {
+        "name": "Concierge",
+        "description": "Developed the Concierge app, a mobile solution for on-the-go event and guest management. Built the front-end and contributed to the back-end, ensuring seamless integration with the supporting software platform.",
+        "tech": ["Node.js", "Angular", "MongoDB", "SCSS"]
+      },
+      {
+        "name": "XLR",
+        "link": "https://github.com/madeagency/xlr",
+        "description": "Proposed and developed XLR, an open-source MS Excel spreadsheet generator for Node.js, used in the Concierge app. Led the project from concept to implementation, focusing on usability and extensibility for internal and external use.",
+        "tech": ["Node.js"]
+      }
+    ]
+  },
+  {
+    "from": "Sept 2016",
+    "to": "Dec 2016",
+    "employer": "Cape Networks (now Aruba)",
+    "location": "Cape Town",
+    "role": "Front-End Developer",
+    "blurb": "Developed interactive dashboard components for real-time Wi-Fi monitoring and troubleshooting.",
+    "projects": [
+      {
+        "name": "Cape Networks Dashboard",
+        "description": "Front-end developer for the Cape Networks (now Aruba) Dashboard, a tool for remote Wi-Fi troubleshooting and quality improvement. Built and maintained interactive dashboard components, focusing on usability and real-time data visualization for network monitoring.",
+        "tech": ["React", "Redux", "Firebase", "SCSS"]
+      }
+    ]
+  },
+  {
+    "from": "June 2015",
+    "to": "Aug 2016",
+    "employer": "Wetu",
+    "location": "Cape Town",
+    "role": "Software Engineer",
+    "blurb": "Contributed to travel industry web platforms, focusing on front-end development, user experience, and data visualization.",
+    "projects": [
+      {
+        "name": "wetu.com",
+        "description": "Contributed to the public-facing Wetu website, focusing on front-end development and user experience improvements to support the company's travel industry offerings.",
+        "tech": ["ASP.NET MVC", "SCSS"]
+      },
+      {
+        "name": "Mobile Itinerary SPA",
+        "description": "Developed a single-page application for clients to view travel itineraries on mobile devices. Focused on responsive design and seamless integration with Wetu's travel platform.",
+        "tech": ["ASP.NET MVC", "JavaScript", "SCSS"]
+      },
+      {
+        "name": "Specials Portal",
+        "description": "Built the Specials Portal, enabling clients to create and search for special offers linked to their accommodations. Developed both the front-end and back-end, ensuring a smooth user experience and robust data management.",
+        "tech": [
+          "ASP.NET MVC",
+          "JavaScript",
+          "Microsoft SQL Server",
+          "RavenDB",
+          "SCSS"
+        ]
+      },
+      {
+        "name": "Internal Metrics Dashboard",
+        "description": "Developed an internal dashboard using D3.js for visualizing company metrics. Focused on data integration and interactive visualizations to support business decision-making.",
+        "tech": [
+          "ASP.NET MVC",
+          "JavaScript",
+          "Microsoft SQL Server",
+          "RavenDB",
+          "SCSS"
+        ]
+      }
+    ]
+  },
+  {
+    "from": "March 2013",
+    "to": "May 2015",
+    "employer": "Intervate",
+    "location": "Cape Town",
+    "role": "Junior Technology Consultant",
+    "blurb": "Developed mobile and web solutions for public sector clients, focusing on citizen engagement and data collection.",
+    "projects": [
+      {
+        "name": "Citizen Reporting (Formerly FixMyCity)",
+        "description": "Contributed to a reusable mobile app framework and web dashboards for citizen reporting. Focused on building features for data collection and visualization to support municipal services.",
+        "tech": ["Windows Phone", "ASP.NET", "Azure", "Azure SQL"]
+      },
+      {
+        "name": "JRA Find & Fix",
+        "description": "Developed a Windows Phone app and REST API for citizens to report road issues to the Johannesburg Road Agency. Focused on mobile user experience and reliable data submission.",
+        "tech": ["Windows Phone", "ASP.NET", "Azure", "Azure SQL"]
+      },
+      {
+        "name": "Citizen Scientist",
+        "description": "Built a Windows Phone app and REST API for tracking animal sightings and supporting conservation efforts. Focused on intuitive data entry and seamless integration with backend services.",
+        "tech": ["Windows Phone", "ASP.NET", "Azure", "Azure SQL"]
+      }
+    ]
+  }
+]
