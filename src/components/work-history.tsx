@@ -4,9 +4,9 @@ import workData from '../data/work.json';
 
 const WorkHistory = () => {
   return (
-    <ul className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8">
       {workData.map((job: Website.WorkHistory, idx) => (
-        <li
+        <div
           key={idx}
           className="flex flex-col gap-4 border border-neutral-200 rounded-lg p-4 shadow bg-white dark:bg-neutral-900 dark:border-neutral-700"
         >
@@ -30,15 +30,15 @@ const WorkHistory = () => {
           </div>
           <p className="italic whitespace-pre-line">{job.blurb}</p>
           {job.projects.length > 0 ? (
-            <ul className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4">
               {job.projects.map((project, pIdx) => (
                 <ProjectCard key={pIdx} project={project} />
               ))}
-            </ul>
+            </div>
           ) : null}
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 };
 

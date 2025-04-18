@@ -174,7 +174,6 @@
       },
       {
         "name": "Carbon",
-        "link": "https://github.com/leadhomesa/carbon",
         "description": "Proposed and led the development of Carbon, an open-source PWA boilerplate for internal React front-ends. Defined project scope and architecture, contributed core features, and maintained documentation to support internal development workflows.",
         "tech": ["React", "Webpack", "Styled Components"]
       },
@@ -210,7 +209,6 @@
       },
       {
         "name": "XLR",
-        "link": "https://github.com/madeagency/xlr",
         "description": "Proposed and developed XLR, an open-source MS Excel spreadsheet generator for Node.js, used in the Concierge app. Led the project from concept to implementation, focusing on usability and extensibility for internal and external use.",
         "tech": ["Node.js"]
       }

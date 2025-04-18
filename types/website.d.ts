@@ -6,7 +6,6 @@ declare namespace Website {
 
   interface WorkProject {
     name: string;
-    link?: string;
     description: string;
     tech: string[];
   }

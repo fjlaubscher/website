@@ -6,7 +6,7 @@ const ProjectCard = ({ project }: { project: Website.WorkProject }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <li
+    <div
       className="bg-neutral-50 dark:bg-neutral-800 rounded-md p-4 border border-neutral-200 dark:border-neutral-700 cursor-pointer"
       onClick={() => setIsOpen((prev) => !prev)}
       aria-expanded={isOpen}
@@ -17,17 +17,6 @@ const ProjectCard = ({ project }: { project: Website.WorkProject }) => {
         <span className="font-medium text-neutral-900 dark:text-neutral-100">
           {project.name}
         </span>
-        {project.link && (
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 underline text-xs hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300"
-            onClick={(e) => e.stopPropagation()}
-          >
-            [link]
-          </a>
-        )}
         <span className="ml-auto text-xs text-neutral-400">
           {isOpen ? <FaChevronUp /> : <FaChevronDown />}
         </span>
@@ -53,7 +42,7 @@ const ProjectCard = ({ project }: { project: Website.WorkProject }) => {
           {project.description}
         </div>
       </div>
-    </li>
+    </div>
   );
 };
 
