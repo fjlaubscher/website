@@ -5,7 +5,7 @@ import { FaTerminal, FaGithub } from 'react-icons/fa';
 
 export default function Header() {
   return (
-    <header className="p-4 bg-sky-50 text-neutral-900 dark:bg-gray-900 dark:text-neutral-100 shadow">
+    <header className="p-4 bg-sky-100 text-neutral-900 dark:bg-gray-900 dark:text-neutral-100 shadow">
       <nav className="w-full max-w-4xl flex items-center justify-between mx-auto">
         <Link
           href="/"

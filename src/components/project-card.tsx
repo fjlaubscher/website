@@ -7,7 +7,7 @@ const ProjectCard = ({ project }: { project: Website.WorkProject }) => {
 
   return (
     <li
-      className="bg-neutral-100 dark:bg-neutral-800 rounded-md p-4 border border-neutral-200 dark:border-neutral-700 cursor-pointer"
+      className="bg-neutral-50 dark:bg-neutral-800 rounded-md p-4 border border-neutral-200 dark:border-neutral-700 cursor-pointer"
       onClick={() => setIsOpen((prev) => !prev)}
       aria-expanded={isOpen}
       tabIndex={0}
@@ -49,7 +49,7 @@ const ProjectCard = ({ project }: { project: Website.WorkProject }) => {
         style={{ pointerEvents: isOpen ? 'auto' : 'none' }}
         aria-hidden={!isOpen}
       >
-        <div className="text-sm text-neutral-400 dark:text-neutral-400">
+        <div className="text-sm text-neutral-700 dark:text-neutral-400">
           {project.description}
         </div>
       </div>

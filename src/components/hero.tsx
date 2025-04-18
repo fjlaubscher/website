@@ -10,7 +10,7 @@ import {
 
 const Hero = () => {
   return (
-    <section className="w-full flex flex-col md:flex-row items-center justify-center pt-16 pb-0 text-center bg-sky-50 dark:bg-gray-900">
+    <section className="w-full flex flex-col md:flex-row items-center justify-center pt-16 pb-0 text-center bg-sky-100 dark:bg-gray-900">
       <div className="w-full max-w-4xl flex flex-col md:flex-row items-center justify-center md:justify-between gap-16">
         <div className="flex flex-col items-center">
           <h1 className="w-full text-4xl font-bold text-center md:text-left mb-2">
@@ -22,19 +22,19 @@ const Hero = () => {
               using:
             </div>
             <ul className="flex flex-wrap items-center justify-center md:justify-start gap-2 text-lg font-medium m-0 p-0 list-none w-full max-w-sm">
-              <li className="flex items-center gap-2 px-3 py-1 rounded bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200">
+              <li className="flex items-center gap-2 px-3 py-1 rounded bg-blue-200 dark:bg-blue-900 text-blue-700 dark:text-blue-200">
                 <FaReact className="text-xl" /> React
               </li>
-              <li className="flex items-center gap-2 px-3 py-1 rounded bg-yellow-50 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-200">
+              <li className="flex items-center gap-2 px-3 py-1 rounded bg-yellow-200 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-200">
                 <FaJsSquare className="text-xl" /> TypeScript
               </li>
-              <li className="flex items-center gap-2 px-3 py-1 rounded bg-pink-50 dark:bg-pink-900 text-pink-700 dark:text-pink-200">
+              <li className="flex items-center gap-2 px-3 py-1 rounded bg-pink-200 dark:bg-pink-900 text-pink-700 dark:text-pink-200">
                 <FaCss3Alt className="text-xl" /> CSS
               </li>
-              <li className="flex items-center gap-2 px-3 py-1 rounded bg-purple-50 dark:bg-purple-900 text-purple-700 dark:text-purple-200">
+              <li className="flex items-center gap-2 px-3 py-1 rounded bg-purple-200 dark:bg-purple-900 text-purple-700 dark:text-purple-200">
                 <FaMicrosoft className="text-xl" /> .NET
               </li>
-              <li className="flex items-center gap-2 px-3 py-1 rounded bg-indigo-50 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-200">
+              <li className="flex items-center gap-2 px-3 py-1 rounded bg-indigo-200 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-200">
                 <FaDatabase className="text-xl" /> SQL
               </li>
             </ul>
