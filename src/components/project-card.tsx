@@ -4,9 +4,10 @@ import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
 
 const ProjectCard = ({ project }: { project: Website.WorkProject }) => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <li
-      className="bg-transparent sm:bg-neutral-100 dark:bg-transparent sm:dark:bg-neutral-800 rounded-md p-2 sm:p-4 border-0 sm:border border-neutral-200 dark:border-neutral-700 shadow-none cursor-pointer"
+      className="bg-neutral-100 dark:bg-neutral-800 rounded-md p-4 border border-neutral-200 dark:border-neutral-700 cursor-pointer"
       onClick={() => setIsOpen((prev) => !prev)}
       aria-expanded={isOpen}
       tabIndex={0}
@@ -48,7 +49,7 @@ const ProjectCard = ({ project }: { project: Website.WorkProject }) => {
         style={{ pointerEvents: isOpen ? 'auto' : 'none' }}
         aria-hidden={!isOpen}
       >
-        <div className="text-sm text-neutral-400 dark:text-neutral-400 mb-1 sm:mb-2">
+        <div className="text-sm text-neutral-400 dark:text-neutral-400">
           {project.description}
         </div>
       </div>

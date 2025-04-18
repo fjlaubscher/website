@@ -13,7 +13,7 @@ declare namespace Website {
 
   interface WorkHistory {
     from: string;
-    to?: string;
+    to: string;
     employer: string;
     location: string;
     role: string;
